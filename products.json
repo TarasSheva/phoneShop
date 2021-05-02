@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Apple iPhone 11",
+        "price": 199.99,
+        "image": { "fields": { "file": { "url": "./images/iphone1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Apple iPhone 12",
+        "price": 299.99,
+        "image": { "fields": { "file": { "url": "./images/iphone2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Apple iPhone 13",
+        "price": 399.99,
+        "image": { "fields": { "file": { "url": "./images/iphone3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Apple iPhone 14",
+        "price": 499.99,
+        "image": { "fields": { "file": { "url": "./images/iphone4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Apple iPhone 15",
+        "price": 599.99,
+        "image": { "fields": { "file": { "url": "./images/iphone5.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Apple iPhone 16",
+        "price": 699.99,
+        "image": { "fields": { "file": { "url": "./images/iphone6.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Apple iPhone 17",
+        "price": 799.99,
+        "image": { "fields": { "file": { "url": "./images/iphone1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Apple iPhone 18",
+        "price": 899.99,
+        "image": { "fields": { "file": { "url": "./images/iphone2.jpeg" } } }
+      }
+    }
+  ]
+}
