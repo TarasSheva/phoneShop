@@ -18,6 +18,10 @@ body {
   background: var(--mainWhite);
   font-family: 'Lato', sans-serif;
 }
+.dark-mode {
+  background: var(--mainBlack);
+  color: var(--mainWhite);
+}
 /* --------------- Navbar ---------------- */
 .navbar {
   position: sticky;

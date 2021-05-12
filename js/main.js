@@ -36,6 +36,14 @@ class Products {
 }
 
 class UI {
+    darkMode() {
+        let date = new Date().getHours()
+        if (date > 18 || date < 6) {
+            document.body.classList.toggle('dark-mode')
+        }
+        console.log(date);
+    }
+
     displayProducts(products) {
         let result = ''
         products.forEach(product => {
@@ -137,6 +145,7 @@ class UI {
         closeCartBtn.addEventListener('click', this.hideCart)
         menuBtn.addEventListener('click', this.showMenu)
         closeMenuBtn.addEventListener('click', this.hideMenu)
+        this.darkMode()
     }
     populate(cart) {
         cart.forEach(item => this.addCartItem(item))
